@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Giuliana Yarleque</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <div id="home">
+        <div class="profile_name">
+          <span class="logo">Giuliana Yarleque Chamoli</span>
+          <div class="contact_info">
+            <img
+              class="icon_info"
+              src="img/envelope.png"
+              alt="https://icons8.com/icon/124377/circled-envelope"
+            />
+            <span
+              ><a href="mailto:giuliana.yarlequech@gmail.com"
+                >giuliana.yarlequech@gmail.com</a
+              ></span
+            >
+          </div>
+          <!-- <div style="clear: both"></div> -->
+          <div class="contact_info">
+            <img
+              class="icon_phone"
+              src="img/phone.png"
+              alt="https://icons8.com/icon/124377/circled-envelope"
+            />
+            <span class="phone">+51 957558792</span>
+          </div>
+        </div>
+        <nav class="topnav">
+          <a class="topmenu" href="#about-me">about me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recomendations</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img
+          src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-4032-a8ab-b546efb9c478.gif"
+          class="profile_image"
+          alt="Foto de perfil"
+        />
+      </div>
+
+      <div>
+        <h1>
+          Hi, I'm Giuliana!
+          <img src="img/waving-hand.png" width="60px" />
+        </h1>
+        <p>
+          I'm a web developer with 2 years of experience, specializing in
+          front-end development, creating modern, dynamic, and responsive user
+          interfaces. I have worked with technologies like HTML5, CSS3, and
+          JavaScript, utilizing frameworks such as React to build engaging and
+          seamless user experiences. Additionally, I have experience in
+          integrating backend systems through RESTful APIs, ensuring that
+          applications are both visually striking and technically robust. My
+          focus is on optimizing performance and usability, always following
+          best practices in web development and design, with a constant passion
+          for innovation on the web.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear: both"></div>
+      <div class="skills-container">
+        <div class="skill">
+          <img src="img/html5.png" alt="HTML" />
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>
+        <div class="skill">
+          <img src="img/js.jpeg" alt="JavaScript" />
+          <h6>JavaScript</h6>
+          <p>1.5 years experience</p>
+        </div>
+        <div class="skill">
+          <img src="img/CSS3.png" alt="CSS" />
+          <h6>CSS</h6>
+          <p>2 years experience</p>
+        </div>
+        <div class="skill">
+          <img src="img/react.png" alt="React" />
+          <h6>React</h6>
+          <p>1 years experience</p>
+        </div>
+        <div class="skill">
+          <img src="img/rpg.png" alt="Rpg" />
+          <h6>Rpg</h6>
+          <p>0.6 years experience</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div style="clear: both"></div>
+      <div id="projects-container" class="projects-container">
+        <div class="project-card">
+          <h3>Survery Form</h3>
+          <ul>
+            <li>
+              <a href="https://giulianayarleque.github.io/Survey-Form/" target="_blank"
+                >Survey-Form</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <h3>Tribute Page</h3>
+          <ul>
+            <li>
+              <a href="https://giulianayarleque.github.io/Tribute-page/" target="_blank"
+                >Tribute-page</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <h3>Documentacion Page</h3>
+          <ul>
+            <li>
+              <a href="https://giulianayarleque.github.io/Documentacion-page/" target="_blank"
+                >Documentacion-page</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear: both"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Giuliana consistently demonstrates a strong commitment to excellence in web development. She has an impressive ability to translate complex requirements into functional and visually appealing designs. Her proactive nature and attention to detail make her a valuable asset to any project.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Giuliana is highly skilled in front-end technologies and has a natural talent for creating intuitive user interfaces. She brings creativity and innovation to every project she works on. Her collaborative spirit and problem-solving abilities contribute significantly to the success of the team.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          has a deep understanding of modern web technologies and consistently delivers high-quality results. She is always eager to learn and adapt to new challenges. Her strong work ethic and positive attitude make her a pleasure to work with, and she consistently goes above and beyond expectations.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>
+          <input type="text" placeholder="Name (Optional)" /> <br />
+          <textarea
+            id="new_recommendation"
+            cols="500"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">
+              Submit
+            </button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="white"
+          width="63px"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="img/checkmark--outline.svg" />
+      <h3>A new recommendation has been added</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
